@@ -17,7 +17,7 @@ public class Balloon {
     vel.add(acc);
     pos.add(vel); 
   }
-  
+ 
   public void draw() {
     fill(255,0,0);
     circle(pos.x,pos.y,size);
